@@ -58,7 +58,7 @@
     this.dispatchEvent(new CustomEvent('brush-change', {
       bubbles: true,
       detail: {
-        brushSize: newSize,
+        brushSize: percent,
       }
     }));
   };
