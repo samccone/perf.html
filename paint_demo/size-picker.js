@@ -22,7 +22,7 @@
 
   proto._setThumbPosition = function(x) {
     // Recenter the slider knob.
-    this.querySelector('.thumb').style.left = `${x - 15}px`;
+    this.querySelector('.thumb').style.transform = `translateX(${x - 15}px)`;
   }
 
   proto.setThumbFromPreview = function(size) {

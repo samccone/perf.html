@@ -6,6 +6,7 @@
 .to-resize {
   width: 50%;
   display: block;
+  will-change: transform;
 }
 
 size-picker {
@@ -31,6 +32,7 @@ size-picker .horizontal-range {
 }
 
 size-picker .thumb {
+    will-change: transform;
     box-sizing: border-box;
     position: absolute;
     display: block;
